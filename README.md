@@ -1,17 +1,30 @@
 ## Features
 - Registration with verification
+
 ![](register.gif)
+
 - Contact
+
 ![](contact.gif)
+
 - Log in and log out
+
 ![](login_out.gif)
+
 - Add a task
+
 ![](add.gif)
+
 - Edit a task
+
 ![](edit.gif)
+
 - Done and delete a task
+
 ![](done_delete.gif)
+
 - Sort tasks
+
 ![](sort.gif)
 
 ## Steps to Runserver
