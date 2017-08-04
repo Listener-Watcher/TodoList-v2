@@ -30,12 +30,11 @@ DEBUG = True
 ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1']
 
 EMAIL_HOST = 'smtp.163.com'
-EMAIL_HOST_USER = 'kiki_hzz@163.com'
-EMAIL_HOST_PASSWORD = 'hzz20122346'
+EMAIL_HOST_USER = 'your_email@163.com'
+EMAIL_HOST_PASSWORD = 'your_email_password'
 EMAIL_PORT = 25
 EMAIL_USER_TLS = True
-DEFAULT_FROM_EMAIL	= 'kiki_hzz@163.com'
-# EMAIL_USER_SLL = True
+DEFAULT_FROM_EMAIL	= 'your_email@163.com'
 
 
 # Application definition
