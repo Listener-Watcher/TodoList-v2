@@ -1,16 +1,22 @@
 ## Features
 - Registration with verification
-![](register.gif)
+![](register.gif
+
 - Contact
-![](contact.gif)
+![](contact.gif
+
 - Log in and log out
-![](login_out.gif)
+![](login_out.gif
+
 - Add a task
-![](add.gif)
+![](add.gif
+
 - Edit a task
-![](edit.gif)
+![](edit.gif
+
 - Done and delete a task
-![](done_delete.gif)
+![](done_delete.gif
+
 - Sort tasks
 ![](sort.gif)
 
