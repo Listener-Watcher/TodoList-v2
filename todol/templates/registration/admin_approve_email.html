@@ -1,0 +1,30 @@
+{% load i18n %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Todo List {% trans "registration" %}</title>
+</head>
+
+<body>
+<p>
+    {% blocktrans with site_name='127.0.0.1:8000' %}
+    The following user ({{ user }}) has asked to register an account at
+    Todo List.
+    {% endblocktrans %}
+</p>
+<p>
+    {% blocktrans %}
+    To approve this, please
+    {% endblocktrans %}
+    <a href="http://{{site.domain}}{% url 'registration_admin_approve' profile_id %}"> {% trans "click here" %}</a>.
+</p>
+<p>
+    {% blocktrans with site_name=site.name %}
+    Sincerely,
+    Todo List Management
+    {% endblocktrans %}
+</p>
+</body>
+
+</html>
