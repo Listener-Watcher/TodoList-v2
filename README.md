@@ -36,7 +36,7 @@ EMAIL_HOST_USER = 'your_email@163.com'
 EMAIL_HOST_PASSWORD = 'your_email_password'
 EMAIL_PORT = 25
 EMAIL_USER_TLS = True
-DEFAULT_FROM_EMAIL	= 'your_email@163.com'
+DEFAULT_FROM_EMAIL = 'your_email@163.com'
 ```
 
 ### Install Modules
